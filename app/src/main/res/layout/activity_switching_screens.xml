@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SwitchingScreensActivity">
+
+    <TextView
+        android:id="@+id/change_screen_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="changeScreenBtn"
+        android:layout_above="@id/btn"
+        android:background="@color/red"
+        android:layout_alignParentTop="true"
+        android:text="当前是竖屏" />
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="1111111111"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <com.example.mytestapp.view.MyLayout
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点我"/>
+
+        <com.example.mytestapp.view.MyTextView
+            android:id="@+id/txt1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="我是个好人我是个好人呢我是啊速度将法律上的经费福建省的雷锋精神多了爽肤水两地分居SD卡飓风桑迪快乐分类数据的法律进多少"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/test_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="111111111111111"
+            android:onClick="testView"
+            />
+    </com.example.mytestapp.view.MyLayout>
+</LinearLayout>
